@@ -628,10 +628,9 @@ export default function App() {
 
         <footer className="relative mx-auto max-w-[1600px] px-4 pb-8 sm:px-6 lg:px-8">
           <div className="flex flex-col gap-2 border-t border-white/[0.06] pt-5 text-[11px] text-white/38 sm:flex-row sm:items-center sm:justify-between">
-            <p>Vibrance — a browser-native color studio. Nothing leaves this device.</p>
-            <p className="font-mono">
-              {colors.length} colors · {detectedMood} · {format} · localStorage synced
-            </p>
+              <p className="font-mono">
+                {colors.length} colors · {detectedMood} · {format} · localStorage synced
+              </p>
           </div>
         </footer>
       </div>
